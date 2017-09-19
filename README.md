@@ -1,10 +1,10 @@
 yii2-settings
 =============
-[![Latest Stable Version](https://poser.pugx.org/johnitvn/yii2-settings/v/stable)](https://packagist.org/packages/johnitvn/yii2-settings)
-[![License](https://poser.pugx.org/johnitvn/yii2-settings/license)](https://packagist.org/packages/johnitvn/yii2-settings)
-[![Total Downloads](https://poser.pugx.org/johnitvn/yii2-settings/downloads)](https://packagist.org/packages/johnitvn/yii2-settings)
-[![Monthly Downloads](https://poser.pugx.org/johnitvn/yii2-settings/d/monthly)](https://packagist.org/packages/johnitvn/yii2-settings)
-[![Daily Downloads](https://poser.pugx.org/johnitvn/yii2-settings/d/daily)](https://packagist.org/packages/johnitvn/yii2-settings)
+[![Latest Stable Version](https://poser.pugx.org/mbenedek/yii2-settings/v/stable)](https://packagist.org/packages/mbenedek/yii2-settings)
+[![License](https://poser.pugx.org/mbenedek/yii2-settings/license)](https://packagist.org/packages/mbenedek/yii2-settings)
+[![Total Downloads](https://poser.pugx.org/mbenedek/yii2-settings/downloads)](https://packagist.org/packages/mbenedek/yii2-settings)
+[![Monthly Downloads](https://poser.pugx.org/mbenedek/yii2-settings/d/monthly)](https://packagist.org/packages/mbenedek/yii2-settings)
+[![Daily Downloads](https://poser.pugx.org/mbenedek/yii2-settings/d/daily)](https://packagist.org/packages/mbenedek/yii2-settings)
 
 Yii2 settings with database module with GUI manager supported
 
@@ -21,13 +21,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist johnitvn/yii2-settings "*"
+php composer.phar require --prefer-dist mbenedek/yii2-settings "*"
 ```
 
 or add
 
 ```
-"johnitvn/yii2-settings": "*"
+"mbenedek/yii2-settings": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -41,7 +41,7 @@ Usage
 ````php
 'components' => [        
     'settings'=>[
-        'class'=>'johnitvn\settings\Settings'
+        'class'=>'mbenedek\settings\Settings'
     ],
 ],
 ````
@@ -76,7 +76,7 @@ And the $type will be use for get settings. This extension have used [settype](h
 ````php
 'modules' => [
     'settings' =>  [
-        'class'=>'johnitvn\settings\Module',
+        'class'=>'mbenedek\settings\Module',
     ]       
 ]
 ````
