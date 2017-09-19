@@ -5,11 +5,17 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "John Martin",
-            "email": "john.itvn@gmail.com"
+            "name": "Mario Benedek",
+            "email": "mariobenedek@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mbenedek/yii2-ajaxcrud"
+        }
+    ],
     "require": {
         "yiisoft/yii2": "*",       
         "johnitvn/yii2-ajaxcrud": "*",
