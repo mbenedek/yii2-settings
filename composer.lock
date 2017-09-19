@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "56d30ffad2b298d2ccca12e489a114ae",
+    "content-hash": "5707f60e7f65ed145c5744eef6de6acf",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -396,16 +396,16 @@
         },
         {
             "name": "johnitvn/yii2-ajaxcrud",
-            "version": "2.1.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnitvn/yii2-ajaxcrud.git",
-                "reference": "563c2d57a13fc307c2ad2f9e69427581568e26fd"
+                "reference": "e0cb145ef0d07b7c2cb66d698b3468ffd72918fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnitvn/yii2-ajaxcrud/zipball/563c2d57a13fc307c2ad2f9e69427581568e26fd",
-                "reference": "563c2d57a13fc307c2ad2f9e69427581568e26fd",
+                "url": "https://api.github.com/repos/johnitvn/yii2-ajaxcrud/zipball/e0cb145ef0d07b7c2cb66d698b3468ffd72918fb",
+                "reference": "e0cb145ef0d07b7c2cb66d698b3468ffd72918fb",
                 "shasum": ""
             },
             "require": {
@@ -446,7 +446,7 @@
                 "template",
                 "yii2"
             ],
-            "time": "2016-03-21T10:56:25+00:00"
+            "time": "2017-03-24 08:34:07"
         },
         {
             "name": "kartik-v/bootstrap-popover-x",
@@ -1254,7 +1254,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "johnitvn/yii2-ajaxcrud": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
