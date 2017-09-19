@@ -3,10 +3,10 @@ use yii\helpers\Url;
 use yii\widgets\Pjax;
 use johnitvn\ajaxcrud\GridView;
 use yii\helpers\Html;
-use johnitvn\settings\controllers\ManagerController; 
+use mbenedek\settings\controllers\ManagerController;
 
 /* @var $this yii\web\View */
-/* @var $searchModel johnitvn\settings\models\SettingsSearch */
+/* @var $searchModel mbenedek\settings\models\SettingsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 

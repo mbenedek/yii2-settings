@@ -1,14 +1,14 @@
 <?php
 
-namespace johnitvn\settings\models;
+namespace mbenedek\settings\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use johnitvn\settings\models\Settings;
+use mbenedek\settings\models\Settings;
 
 /**
- * SettingsSearch represents the model behind the search form about `johnitvn\settings\models\Settings`.
+ * SettingsSearch represents the model behind the search form about `mbenedek\settings\models\Settings`.
  */
 class SettingsSearch extends Settings
 {

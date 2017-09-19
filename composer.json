@@ -1,30 +1,27 @@
 {
-    "name": "valery-lavrik/yii2-settings",
-    "description": "Yii2 settings with database module with GUI manager supported",
-    "type": "yii2-extension",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Mario Benedek",
-            "email": "mariobenedek@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/mbenedek/yii2-ajaxcrud"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "*",       
-        "johnitvn/yii2-ajaxcrud": "dev-master",
-        "kartik-v/yii2-widget-select2":"*"
+  "name": "mbenedek/yii2-settings",
+  "description": "Yii2 settings with database module with GUI manager supported",
+  "type": "yii2-extension",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Mario Benedek",
+      "email": "mariobenedek@gmail.com"
     },
-    "autoload": {
-        "psr-4": {
-            "johnitvn\\settings\\": "src/"
-        }
+    {
+      "name": "John Martin",
+      "email": "john.itvn@gmail.com"
     }
-  
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "*",
+    "mbenedek/yii2-ajaxcrud": "*",
+    "kartik-v/yii2-widget-select2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "mbenedek\\settings\\": "src/"
+    }
+  }
 }

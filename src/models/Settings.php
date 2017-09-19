@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\settings\models;
+namespace mbenedek\settings\models;
 
 use Yii;
 use yii\helpers\ArrayHelper;

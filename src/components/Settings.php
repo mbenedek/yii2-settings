@@ -1,12 +1,12 @@
 <?php
 
 
-namespace johnitvn\settings\components;
+namespace mbenedek\settings\components;
 
 use yii\base\Component;
 use yii\caching\Cache;
 use Yii;
-use johnitvn\settings\models\Settings as SettingModel;
+use mbenedek\settings\models\Settings as SettingModel;
 
 
 class Settings extends Component
