@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Url;
 use yii\widgets\Pjax;
-use johnitvn\ajaxcrud\GridView;
+use mbenedek\ajaxcrud\GridView;
 use yii\helpers\Html;
 use mbenedek\settings\controllers\ManagerController;
 

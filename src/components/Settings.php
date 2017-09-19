@@ -42,7 +42,7 @@ class Settings extends Component
      *
      * @var string cache key
      */
-    public $cacheKey = 'johnitvn/settings';
+    public $cacheKey = 'mbenedek/settings';
 
     /**
      * Holds a cached copy of the data for the current request
